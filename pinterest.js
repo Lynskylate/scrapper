@@ -14,11 +14,11 @@ function sleep(ms) {
     const queryString = "t-shirt"
     const cookies = []
     const destination_num = 10000
-
+    const executablePath = "C:\\Program Files (x85)\\Google\\Chrome\\Application\\chrome.exe"
 
 
     // start the browser
-    const browser = await puppeteer.launch({ headless: false, executablePath: "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe" });
+    const browser = await puppeteer.launch({ headless: false, executablePath: executablePath});
     // open a new page
     const page = await browser.newPage();
     let cnt = 0
