@@ -14,7 +14,7 @@ function sleep(ms) {
     const queryString = "t-shirt"
     const cookies = []
     const destination_num = 10000
-    const executablePath = "C:\\Program Files (x85)\\Google\\Chrome\\Application\\chrome.exe"
+    const executablePath = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 
 
     // start the browser
